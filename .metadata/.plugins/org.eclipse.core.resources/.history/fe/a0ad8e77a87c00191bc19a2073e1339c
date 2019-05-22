@@ -1,0 +1,10 @@
+package model;
+
+public class Album {
+	
+	 private int AlbumId;
+	 private String AlbumName;
+	 private String ArtistName;
+	 private int SongNumber;
+	 private String AlbumYear;	
+}

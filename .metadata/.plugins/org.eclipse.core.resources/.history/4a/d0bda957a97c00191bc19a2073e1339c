@@ -1,0 +1,10 @@
+package model;
+
+public class Song {
+	private int SongId;
+	private byte[] caratula;
+	private String SongName;
+	private int ArtistName;
+	private byte[] song;
+	private int SongYear;
+}
