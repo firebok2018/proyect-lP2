@@ -23,6 +23,7 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			background-attachment: fixed;
+			user-select: none; 
 		}
 	</style>
 </head>
@@ -30,14 +31,15 @@
 	<head>
 		<jsp:include page="Header.jsp"/>
 	</head>
-	<jsp:include page="SignIn.jsp"/>
-	<jsp:include page="SignUp.jsp"/>
+
 	
 	<section id="sx">
 		<jsp:include page="Search.jsp"/>
 	</section>
-
+	
 		<jsp:include page="Footer.jsp"/>
+	
+		
 
 	
 </body>

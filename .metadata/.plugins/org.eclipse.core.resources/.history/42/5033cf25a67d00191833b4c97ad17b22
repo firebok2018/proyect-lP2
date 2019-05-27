@@ -1,0 +1,23 @@
+package conexion;
+
+import java.sql.SQLException;
+import java.util.List;
+
+import Interfaces.Sign_In;
+import model.Usuarios;
+
+public class sign_in implements Sign_In{
+
+	@Override
+	public Usuarios signin(String name, String pwd) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Usuarios> menuXuser(int ID) throws SQLException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

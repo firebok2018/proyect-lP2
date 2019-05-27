@@ -1,0 +1,32 @@
+package Mantenimiento;
+import java.util.List;
+
+import Interfaces.InterfaceAlbum;
+import model.Album;
+public class MantenimientoAlbum implements InterfaceAlbum{
+
+	@Override
+	public List<Album> listarAlbum() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void AddAlbum(Album x) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void UpdateAlbum(Album y) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void DeleteAlbum(Album z) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

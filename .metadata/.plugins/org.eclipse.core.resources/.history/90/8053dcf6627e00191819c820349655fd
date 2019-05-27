@@ -1,0 +1,61 @@
+package conexion;
+
+import java.sql.CallableStatement;
+import java.sql.Connection;
+
+import java.util.List;
+
+import Interfaces.InterfaceUsuarios;
+
+import utils.Conexion;
+import model.Usuarios;
+
+public class Conexion_Usuario implements InterfaceUsuarios{
+
+	@Override
+	public List<Usuarios> listarUsuarios() {
+		return null;
+
+	}
+
+	@Override
+	public void addUsuarios(Usuarios x) {
+		// TODO Auto-generated method stub
+		
+		Connection con=null;
+		CallableStatement sp=null;
+		
+		
+		try{
+			con=new Conexion().getConexion();
+			String calls="{ call add_user (?,?,?,?,?,?,?) }";
+			sp=con.prepareCall(calls);
+			sp.setInt(1, x.getID());
+			sp.setString(2, x.getName());
+			sp.setString(3, x.getLast_name());
+			sp.setString(4, x.getNick());
+			sp.setString(5, x.getEmail());
+			sp.setString(6, x.getFecha_Registro());
+			sp.setString(7, x.getPassword());
+			sp.execute();
+			con.commit();
+			
+			
+		}catch(Exception e){
+			
+		}
+	}
+
+	@Override
+	public void updateUsuarios(Usuarios y) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteUsuarios(Usuarios z) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

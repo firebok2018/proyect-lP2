@@ -1,0 +1,17 @@
+package utils;
+
+import Interfaces.SignIn;
+
+public abstract class Database {
+
+	public static final int MYSQL=1;
+	public static final int SQL_SERVER=2;
+	public static final int ORACLE=3;
+	
+	public abstract SignIn getTipo(int tipo){
+		switch(tipo){
+		case MYSQL:
+			return new 
+		}
+	}
+}

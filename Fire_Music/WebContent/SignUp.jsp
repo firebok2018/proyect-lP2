@@ -10,7 +10,7 @@
 	<input class="uReg" type="password" placeholder="Confirm-Password">
 	
 	<div id="chks">
-		<label class="container">Acepta Todos los teminos y condiciones.
+		<label class="container">Acepta Todos los terminos y condiciones.
 		  <input type="checkbox" >
 		  <span class="checkmark"></span>
 		</label>

@@ -1,0 +1,32 @@
+package Mantenimiento;
+import java.util.List;
+
+import Interfaces.InterfaceSong;
+import model.Song;
+public class MantenimientoSong implements InterfaceSong {
+
+	@Override
+	public List<Song> listarSong() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addSong(Song x) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateSong(Song y) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteSong(Song z) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

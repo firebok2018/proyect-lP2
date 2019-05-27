@@ -1,3 +1,11 @@
+*,
+	*::after,
+	*::before{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+	*:focus {outline: none;}
 	:root{
 		--color:rgba(35,172,157,1.00);
 		--heigtInput:2.5rem;
@@ -9,19 +17,17 @@
 		--transicion:all .8s;
 		
 	}
-	
-	
-	#boxSingIn{
+#boxSingIn{
 		width: 100%;
-		height: 80%;
-		background-image: url(audio.jpg);
+		height: 100vh;
+		background-image: url(Images/audio.jpg);
 		display: flex;
 		
 	}
 	#formSignIn{
 		display: block;
 		margin: auto;
-		width: 50%;
+		width: 40%;
 		height: auto;
 		background-color: rgba(49,23,111,.5);
 		padding: 5%;

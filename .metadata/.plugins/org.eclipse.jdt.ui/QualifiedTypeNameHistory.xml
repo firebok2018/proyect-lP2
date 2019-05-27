@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="model.Artist"/>
+<fullyQualifiedTypeName name="model.Song"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="Interfaces.SignIn"/>
+<fullyQualifiedTypeName name="conexion.mySql"/>
+<fullyQualifiedTypeName name="conexion.sign_in"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.CallableStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="utils.Conexion"/>
+<fullyQualifiedTypeName name="utils.Database"/>
+<fullyQualifiedTypeName name="Interfaces.Sign_In"/>
+<fullyQualifiedTypeName name="model.Usuarios"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

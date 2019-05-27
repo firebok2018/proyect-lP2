@@ -4,6 +4,7 @@
 	<div id="as">
 		<img id="iconSearch" src="Imagen/search.png" alt="Search">
 		<input type="text" id="searchx" placeholder="Song, Artist ,Album">
+		<span id="not">&times</span>
 	</div>
 </div>
 <div id="list">
@@ -24,14 +25,27 @@
 <script>
 	$(document).ready(function(){
 		$('#boxsearch').css({
-			margin:'auto'
+			
 		})
 		$('#searchx').focus(function(){
 			//alert('funciona')
 			$('#sx').css({
 				backgroundColor:'rgba(0,0,0,.2)'
 			})
+			$('#boxsearch').css({paddingTop:'10%',transition: 'all .3s'})
+			$('#not').css({visibility: 'visible'})
+			
 		})
-		$('#list').css({display:'none'})
+		$('#not').click(function(){
+			$('#searchx').val('')
+			$('#sx').css({
+				backgroundColor:'transparent'
+			})
+			$('#boxsearch').css({paddingTop:'20%',transition: 'all .3s'})
+			$('#not').css({visibility: 'hidden'})
+		})
+		
+		
+		
 	})
 </script>

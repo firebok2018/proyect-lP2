@@ -1,0 +1,32 @@
+package Mantenimiento;
+import java.util.List;
+
+import Interfaces.InterfaceArtist;
+import model.Artist;
+public class GestionArtist implements InterfaceArtist{
+
+	@Override
+	public List<Artist> listarArtist() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addArtist(Artist x) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateArtist(Artist y) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteArtist(Artist z) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+ackage Interfaces;
+
+import java.util.List;
+
+import model.Usuarios;
+
+public interface InterfaceUsuarios {
+	
+}

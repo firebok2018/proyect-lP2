@@ -1,0 +1,5 @@
+#footerx{
+	width:100%;
+	height:200px;
+	color:red;
+}

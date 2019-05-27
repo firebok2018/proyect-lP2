@@ -1,0 +1,14 @@
+package model;
+
+import Interfaces.SignIn;
+import utils.Database;
+
+public class conexionDatabase extends Database{
+
+	@Override
+	public SignIn getSignIn() {
+		// TODO Auto-generated method stub
+		return new  SignIn();
+	}
+	
+}

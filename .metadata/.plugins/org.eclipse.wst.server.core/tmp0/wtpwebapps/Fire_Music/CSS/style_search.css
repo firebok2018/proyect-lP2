@@ -27,12 +27,12 @@
 		display: block;
 		height: 3rem;
 		border-radius: 30px;
-		padding-left: 2%;
+		padding-left: 4%;
 		border: solid rgba(193,193,193,1.00) 1.5px;
-		
+		font-size:1.2rem;
 	}
 	#list{
-		display: block;
+		display: none;
 		margin: auto;
 		width: 80%;
 		height: auto;
@@ -62,3 +62,18 @@
 	.play{width: 20%;}
 	
 	.fs{font-size:1rem;}
+	
+	#not{
+		visibility: hidden;
+		font-size:3rem;
+		display:block;
+		margin:auto;
+		padding-left:1%;
+		font-weight: bold;
+		color:red;
+	}
+	#not:hover{cursor:pointer;}
+	#not:active{
+		font-size:2.5rem;
+		color:white;
+	}

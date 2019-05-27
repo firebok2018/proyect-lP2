@@ -1,0 +1,14 @@
+package conexion;
+
+import utils.Database;
+import utils.SignIn;
+
+public class mySql extends Database {
+
+	@Override
+	public SignIn getSignIn() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

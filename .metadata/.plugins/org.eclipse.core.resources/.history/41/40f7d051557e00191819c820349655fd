@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<link href="https://fonts.googleapis.com/css?family=Bitter|Gloria+Hallelujah|Open+Sans|Paytone+One|Poppins|Roboto|Roboto+Mono|Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="CSS/style_signin.css">
+	<script src="JS/jquery.min.js"></script>
+	<style>
+		body{
+			background-image: url(Imagen/audio.jpg);
+			box-sizing: border-box;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			user-select: none; 
+		}
+	</style>
+	<title>Sign In</title>
+</head>
+<body>
+	<div id="boxSingIn">
+		<form action="SignIn" method="post" id="formSignIn" name="frm_signin">
+			<div id="icon"></div>
+			<span>
+				<%
+					String mensaje=(String) request.getAttribute("MENSAJE");
+					if(mensaje != null){
+				%>	
+					<font color="red" size="3"><%=mensaje %></font>
+					
+				<% }%>
+			</span>
+			<input id="user" type="text" placeholder="User" name="user_name">
+			<input id="pwd" type="password" placeholder="Password" name="user_pwd">
+			<input id="SignIn" type="submit" value="Sign In" name=btn_login>
+			<a id="op" href="">Forgot your Password?</a>
+		</form>
+	</div>
+	<script>
+	
+	</script>
+
+</body>
+</html>
